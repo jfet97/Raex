@@ -1,2 +1,2 @@
 # Raex
-A new powerful reactive library for javascvript
+A new powerful reactive library for javascript
