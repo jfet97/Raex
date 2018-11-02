@@ -249,7 +249,7 @@ let b = new Let(55);
 let c = new Let(50);
 
 let d = Let.add(a, b, c);
-d.onChange((v) => console.log(`il valore è cambiato in: ${v}`));
+d.onChange((v) => console.log(`value changed ${v}`));
 console.log(d.value);
 b.value = 155;
 b.value = 10;
