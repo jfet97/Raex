@@ -1,2 +1,2 @@
 # Raex
-A new powerful reactive library for javascript
+A new not powerful reactive library for javascript
