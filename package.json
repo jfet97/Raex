@@ -1,0 +1,28 @@
+{
+  "name": "Raex",
+  "version": "1.0.0",
+  "description": "A new powerful reactive library for javascript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "nodemon --exec babel-node -- __tests__/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfet97/Raex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfet97/Raex/issues"
+  },
+  "homepage": "https://github.com/jfet97/Raex#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.18.5"
+  }
+}
