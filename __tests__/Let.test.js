@@ -2,15 +2,19 @@ import { Let } from '../lib';
 
 console.log("-------------------------------------------");
 
-let a = new Let(45);
-let b = new Let(55);
-let c = new Let(50);
+let a = new Let(1);
+let b = new Let(2);
+let c = new Let(3);
 
 let d = Let.add(a, b, c);
-d.onChange((v) => console.log(`value changed: ${v}`));
-console.log(d.value);
-b.value = 155;
-b.value = 10;
+console.log(d.value); // 6
+d.onChange((v) => console.log(`value updated: ${v}`));
+
+c.value = 0; // value updated: 3
+console.log(d.value); // 3
+
+b.value = 9; // value updated: 10
+console.log(d.value); // 10;
 
 console.log("-------------------------------------------");
 
