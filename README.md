@@ -1,5 +1,5 @@
 # Raex
-A new not powerful reactive library for javascript
+A new not powerful reactive library for javascript (it uses ES6 Proxies)
 
 ```js
 import { Let } from '../lib';
