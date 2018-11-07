@@ -4,7 +4,7 @@
   "description": "A new powerful reactive library for javascript",
   "main": "lib/index.js",
   "scripts": {
-    "test": "nodemon --exec babel-node -- __tests__/*.js"
+    "test": "nodemon --exec babel-node -- __tests__/Let.test.js"
   },
   "repository": {
     "type": "git",
